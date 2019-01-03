@@ -6,6 +6,12 @@ Version of cmake must be above 2.8 (Recommended 3.9.1).
 
 
 # How to run
-For 1D codes, after doing cmake, just execute
+For 1D codes, after doing cmake, execute:
 
-$mpirun -np [core number] heat1D [left fixed temperture] [right fixed temperture] [grids] [time steps] 
+$mpirun -np [core number]  heat1D  [left fixed temperture]  [right fixed temperture]  [grids]  [time steps] 
+
+
+
+For 2D3D codes, after doing cmake, execute:
+
+$./heat2D3D  [configFile.txt]
